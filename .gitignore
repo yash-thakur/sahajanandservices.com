@@ -1,0 +1,79 @@
+# Root level
+node_modules/
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
+
+# Packages - shared
+packages/shared/node_modules/
+packages/shared/dist/
+
+# Packages - admin (Next.js)
+packages/admin/node_modules/
+packages/admin/.next/
+packages/admin/dist/
+packages/admin/coverage/
+packages/admin/.env*
+packages/admin/*.log
+
+# Packages - frontend (Next.js)
+packages/frontend/node_modules/
+packages/frontend/.next/
+packages/frontend/dist/
+packages/frontend/coverage/
+packages/frontend/.env*
+packages/frontend/*.log
+
+# Services - admin-api
+services/admin-api/node_modules/
+services/admin-api/dist/
+services/admin-api/coverage/
+services/admin-api/.env*
+services/admin-api/*.log
+
+# Services - delivery-api
+services/delivery-api/node_modules/
+services/delivery-api/dist/
+services/delivery-api/coverage/
+services/delivery-api/.env*
+services/delivery-api/*.log
+
+# Services - preview-api
+services/preview-api/node_modules/
+services/preview-api/dist/
+services/preview-api/coverage/
+services/preview-api/.env*
+services/preview-api/*.log
+
+# Common files
+*.log
+*.pid
+*.pid.lock
+*.seed
+*.tsbuildinfo
+.eslintcache
+.npm
+coverage/
+
+# IDE and editors
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+**/.git
