@@ -3,10 +3,19 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Sahajanand Services | Plastic Machinery Installation & Commissioning Services | Expert Machine Erection</title>
+    <title>Machinery Installation &amp; Commissioning | Sahajanand Services</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="plastic machinery installation, machine erection, industrial equipment commissioning, injection molding setup, blow molding installation, printing machine installation, manufacturing equipment services" name="keywords">
-    <meta content="Specialized installation and erection of plastic manufacturing and printing machinery. Precision-driven solutions for blow molding, and printing equipment with 98% client satisfaction." name="description">
+    <meta content="plastic machinery installation, machine erection, industrial equipment commissioning, material handling services, loading unloading, manufacturing services" name="keywords">
+    <meta content="Expert installation, erection &amp; commissioning of plastic machinery across Asia Pacific, Africa &amp; Europe. Get a free quote from Sahajanand Services today." name="description">
+
+    <?php
+      $pageTitle = 'Machinery Installation & Commissioning | Sahajanand Services';
+      $pageDescription = 'Expert installation, erection & commissioning of plastic machinery across Asia Pacific, Africa & Europe. Get a free quote from Sahajanand Services today.';
+      $pageUrl = 'https://sahajanandservices.com/';
+      $pageType = 'website';
+      require('components/seo-head.php');
+    ?>
+
     <?php
       require('components/header-imports.php');
     ?>
@@ -29,32 +38,32 @@
 
 
     <!-- Carousel Start -->
-    <div class="container-fluid px-0 mb-5">
-        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="main-content" class="container-fluid px-0 mb-5">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel" aria-label="Hero image slideshow">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                <div class="carousel-item active" role="group" aria-label="Slide 1 of 2">
+                    <img class="w-100" src="img/machine-installation-erection-services.jpg" alt="Professional machine installation and erection services by Sahajanand Services" width="1920" height="700">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
                                     <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">15 Years of Working Experience</p>
-                                    <h1 class="display-1 text-white mb-5 animated slideInRight">Industrial Solution Providing Company</h1>
-                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
+                                    <h1 class="display-1 text-white mb-5 animated slideInRight">Installation, Erection &amp; Commissioning Experts</h1>
+                                    <a href="service.php" class="btn btn-primary py-3 px-5 animated slideInRight">Explore Our Services</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                <div class="carousel-item" role="group" aria-label="Slide 2 of 2">
+                    <img class="w-100" src="img/industrial-machinery-commissioning-engineers.jpg" alt="Industrial machinery commissioning engineers performing equipment setup" width="1920" height="700" loading="lazy">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
-                                    <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">15 Years of Working Experience</p>
-                                    <h1 class="display-1 text-white mb-5 animated slideInRight">The Best Reliable Industry Solution</h1>
-                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
+                                    <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">Loading, Unloading & Material Handling</p>
+                                    <p class="display-1 text-white mb-5 animated slideInRight">One Team For Your Entire Machine Project</p>
+                                    <a href="contact.php" class="btn btn-primary py-3 px-5 animated slideInRight">Get a Free Quote</a>
                                 </div>
                             </div>
                         </div>
@@ -80,44 +89,7 @@
     <?php
       require('components/about.php');
     ?>
-    
     <!-- About End -->
-
-
-    <!-- Facts Start -->
-    <?php
-      require('components/facts.php');
-    ?>
-    <!-- Facts End -->
-
-
-    <!-- Features Start -->
-    <?php
-      require('components/features.php');
-    ?>
-    
-    <!-- Features End -->
-
-
-    <!-- Video Modal Start -->
-    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content rounded-0">
-                <div class="modal-header">
-                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <!-- 16:9 aspect ratio -->
-                    <div class="ratio ratio-16x9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
-                            allow="autoplay"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Video Modal End -->
 
 
     <!-- Service Start -->
@@ -127,28 +99,39 @@
     <!-- Service End -->
 
 
-    <!-- Project Start -->
+    <!-- Industries Start -->
     <?php
-      require('components/projects.php');
+      require('components/industries.php');
     ?>
-    
-    <!-- Project End -->
+    <!-- Industries End -->
 
 
-    <!-- Team Start -->
+    <!-- Process Start -->
     <?php
-      require('components/team.php');
+      require('components/process.php');
     ?>
-    
-    <!-- Team End -->
+    <!-- Process End -->
 
 
-    <!-- Testimonial Start -->
+    <!-- Features Start -->
     <?php
-      require('components/testimonials.php');
+      require('components/features.php');
     ?>
-    
-    <!-- Testimonial End -->
+    <!-- Features End -->
+
+
+    <!-- Facts Start -->
+    <?php
+      require('components/facts.php');
+    ?>
+    <!-- Facts End -->
+
+
+    <!-- CTA Banner Start -->
+    <?php
+      require('components/cta-banner.php');
+    ?>
+    <!-- CTA Banner End -->
 
 
     <!-- Footer Start -->
@@ -156,6 +139,9 @@
       require('components/footer.php');
     ?>
     <!-- Footer End -->
+
+    <!-- Schema Markup -->
+    <?php require('components/schema.php'); ?>
 
 </body>
 

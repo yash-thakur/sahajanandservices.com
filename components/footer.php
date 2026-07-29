@@ -1,23 +1,23 @@
-<div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+<footer class="container-fluid bg-dark mt-5 py-5 wow fadeIn" data-wow-delay="0.1s" aria-label="Site Footer">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6">
-                    <h5 class="text-white mb-4">Our Office</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>100, Sonangar, Abrama, Valsad - 396001</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91-8780354331</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>service@sahajanandservices.com</p>
+                    <h5 class="text-white mb-4">Get In Touch</h5>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><a href="tel:+918780354331" class="text-reset" aria-label="Call Sahajanand Services">+91 - 8780354331</a></p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i><a href="mailto:service@sahajanandservices.com" class="text-reset" aria-label="Email Sahajanand Services">service@sahajanandservices.com</a></p>
                     <div class="d-flex pt-3">
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href="" aria-label="Follow us on Twitter"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href="" aria-label="Follow us on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <h5 class="text-white mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="about.php">About Us</a>
+                    <a class="btn btn-link" href="contact.php">Contact Us</a>
+                    <a class="btn btn-link" href="service.php">Our Services</a>
+                    <a class="btn btn-link" href="industries.php">Industries We Serve</a>
+                    <a class="btn btn-link" href="faq.php">Frequently Asked Questions</a>
+                    <a class="btn btn-link" href="privacy-policy.php">Privacy Policy</a>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <h5 class="text-white mb-4">Business Hours</h5>
@@ -30,20 +30,18 @@
                 </div>
             </div>
         </div>
-    </div>
+    </footer>
     <!-- Copyright Start -->
     <div class="container-fluid copyright bg-dark py-4">
         <div class="container text-center">
-            <p class="mb-2">Copyright &copy; <a class="fw-semi-bold" href="#">Sahajanand Services</a>, All Right Reserved.</p>
-            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-            <p class="mb-0">Designed By <a class="fw-semi-bold" href="https://htmlcodex.com">HTML Codex</a></p>
+            <p class="mb-0">Copyright &copy; <a class="fw-semi-bold" href="index.php">Sahajanand Services</a>, All Rights Reserved.</p>
         </div>
     </div>
     <!-- Copyright End -->
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top" aria-label="Back to top"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
@@ -52,7 +50,6 @@
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
 
     <!-- Template Javascript -->

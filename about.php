@@ -3,10 +3,19 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Industro - Industrial HTML Template</title>
+    <title>About Us – 15 Years of Expertise | Sahajanand Services</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="about sahajanand services, machinery installation company, industrial commissioning experts, erection services India" name="keywords">
+    <meta content="With 15+ years in machinery installation, erection &amp; commissioning, Sahajanand Services delivers across Asia Pacific, Africa &amp; Europe. Discover our story." name="description">
+
+    <?php
+      $pageTitle = 'About Us – 15 Years of Expertise | Sahajanand Services';
+      $pageDescription = 'With 15+ years in machinery installation, erection & commissioning, Sahajanand Services delivers across Asia Pacific, Africa & Europe. Discover our story.';
+      $pageUrl = 'https://sahajanandservices.com/about.php';
+      $pageType = 'website';
+      $pageBreadcrumb = 'About Us';
+      require('components/seo-head.php');
+    ?>
 
     <?php
       require('components/header-imports.php');
@@ -28,25 +37,20 @@
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <h1 class="display-3 text-white animated slideInRight">About Us</h1>
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb animated slideInRight mb-0">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">About Us</li>
-                </ol>
-            </nav>
-        </div>
-    </div>
+    <?php
+      $pageHeaderTitle = 'About Us';
+      $pageTitle = $pageHeaderTitle;
+      require('components/page-header.php');
+    ?>
     <!-- Page Header End -->
 
 
     <!-- About Start -->
+    <div id="main-content">
     <?php
       require('components/about.php');
     ?>
+    </div>
     <!-- About End -->
 
 
@@ -57,33 +61,33 @@
     <!-- Facts End -->
 
 
-    <!-- Team Start -->
+    <!-- Values Start -->
     <?php
-      require('components/team.php');
+      require('components/values.php');
     ?>
-    <!-- Team End -->
+    <!-- Values End -->
 
 
-    <!-- Video Modal Start -->
-    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content rounded-0">
-                <div class="modal-header">
-                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <!-- 16:9 aspect ratio -->
-                    <div class="ratio ratio-16x9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
-                            allow="autoplay"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Video Modal End -->
-        
+    <!-- Process Start -->
+    <?php
+      require('components/process.php');
+    ?>
+    <!-- Process End -->
+
+
+    <!-- Regions Start -->
+    <?php
+      require('components/regions.php');
+    ?>
+    <!-- Regions End -->
+
+
+    <!-- CTA Banner Start -->
+    <?php
+      require('components/cta-banner.php');
+    ?>
+    <!-- CTA Banner End -->
+
 
     <!-- Footer Start -->
     <?php
@@ -91,8 +95,9 @@
     ?>
     <!-- Footer End -->
 
+    <!-- Schema Markup -->
+    <?php require('components/schema.php'); ?>
 
-   
 </body>
 
 </html>

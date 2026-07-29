@@ -8,14 +8,17 @@
 
 <!-- Icon Font Stylesheet -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" media="print" onload="this.media='all'">
 
 <!-- Libraries Stylesheet -->
-<link href="lib/animate/animate.min.css" rel="stylesheet">
-<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="lib/animate/animate.min.css" rel="stylesheet" media="print" onload="this.media='all'">
 
-<!-- Customized Bootstrap Stylesheet -->
+<!-- Bootstrap Stylesheet -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Template Stylesheet -->
+<!-- Site Stylesheet -->
 <link href="css/style.css" rel="stylesheet">
+
+<!-- AI & Accessibility Meta -->
+<meta name="theme-color" content="#E8590C">
+<meta name="ai-content-declaration" content="This website contains human-written content about industrial machinery installation services.">
