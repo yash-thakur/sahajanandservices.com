@@ -10,51 +10,51 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-                                Do you handle both new and used machines?
+                                Do you work with both new and used machines?
                             </button>
                         </h2>
                         <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body">Yes. We install and commission new machines, and we also refurbish and recommission used equipment so it performs like new at a fraction of the cost of buying new.</div>
+                            <div class="accordion-body">Yes. We install and commission new machinery, and we refurbish pre-owned equipment to restore full operational performance — typically at 40–60% of new-equipment cost.</div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
-                                Which regions do you provide service in?
+                                Which regions do you operate in?
                             </button>
                         </h2>
                         <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body">We serve clients across Asia Pacific, Africa, Europe and the Middle East, and throughout the territories of India for crane and material handling services.</div>
+                            <div class="accordion-body">We deploy across Asia Pacific, Africa, Europe, and the Middle East. Crane hire and material handling services are available on a Pan India basis.</div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
-                                What does the loading and unloading service include?
+                                What does your loading and unloading service cover?
                             </button>
                         </h2>
                         <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body">Our crane and forklift hire service covers safe loading at the source, transport coordination, and careful unloading and positioning at your site, all handled by trained, experienced operators.</div>
+                            <div class="accordion-body">Crane and forklift-assisted loading at origin, coordinated transport, and precision unloading and positioning at your site. All operations follow strict safety protocols under certified operators.</div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
-                                Can you help if we're buying or selling a machine?
+                                Can you assist with buying or selling machinery?
                             </button>
                         </h2>
                         <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body">Yes. We deal in new and used machines and can help you find the right equipment for your budget, or connect you with buyers for machines you no longer need.</div>
+                            <div class="accordion-body">Yes. As authorized resellers, we source new or pre-owned machines matched to your capacity requirements and budget. We also connect sellers with verified buyers for surplus equipment.</div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
-                                Do you provide manpower and contract hire as well?
+                                Do you offer manpower recruitment and contract hire?
                             </button>
                         </h2>
                         <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body">Yes, through our HR recruitment and contract hire services we place skilled engineers and technicians on your project, whether for a short-term installation or a longer contract.</div>
+                            <div class="accordion-body">Yes. Our HR division places qualified engineers and technicians on your project — whether for a short-term installation or an extended contract engagement across any of our operating regions.</div>
                         </div>
                     </div>
                 </div>

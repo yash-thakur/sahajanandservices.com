@@ -10,8 +10,8 @@
             <div class="col-lg-6 ps-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center text-white">
                     <span>Follow Us:</span>
-                    <a class="btn btn-link text-light" href="" aria-label="Follow us on Twitter"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-link text-light" href="" aria-label="Follow us on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-link text-light" href="https://www.facebook.com/sahajanandservices#" target="_blank" rel="noopener" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-link text-light" href="https://www.linkedin.com/in/thakor-harshkumar/" target="_blank" rel="noopener" aria-label="Follow us on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 text-end">
@@ -39,6 +39,7 @@
                 <a href="about.php" class="nav-item nav-link<?php echo $current_page === 'about.php' ? ' active' : ''; ?>">About</a>
                 <a href="service.php" class="nav-item nav-link<?php echo $current_page === 'service.php' ? ' active' : ''; ?>">Services</a>
                 <a href="industries.php" class="nav-item nav-link<?php echo $current_page === 'industries.php' ? ' active' : ''; ?>">Industries</a>
+                <a href="machines.php" class="nav-item nav-link<?php echo $current_page === 'machines.php' ? ' active' : ''; ?>">Equipment</a>
                 <a href="contact.php" class="nav-item nav-link<?php echo $current_page === 'contact.php' ? ' active' : ''; ?>">Contact</a>
             </div>
             <a href="contact.php" class="btn btn-primary px-3 d-none d-lg-block">Get A Quote</a>

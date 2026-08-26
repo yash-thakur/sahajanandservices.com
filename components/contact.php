@@ -2,8 +2,8 @@
     <div class="container">
         <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 700px;">
             <p class="fw-medium text-uppercase text-primary mb-2 section-tag">Contact Us</p>
-            <h2 class="display-5 mb-3">Let's Talk About Your Next Machine Project</h2>
-            <p class="mb-0">Reach out for installation, erection, commissioning, or material handling needs &mdash; our team responds fast.</p>
+            <h2 class="display-5 mb-3">Discuss Your Next Machinery Project</h2>
+            <p class="mb-0">Whether it's installation, material handling, equipment purchase, or contract staffing — reach out and we'll respond within one business day.</p>
         </div>
         <div class="row g-4 justify-content-center">
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
@@ -34,14 +34,14 @@
                         </div>
                         <div>
                             <p class="mb-1 small">Business Hours</p>
-                            <span class="h6 mb-0 d-block text-white">Mon &ndash; Fri: 9am &ndash; 7pm</span>
-                            <span class="h6 mb-0 d-block text-white">Sat: 9am &ndash; 12pm</span>
+                            <span class="h6 mb-0 d-block text-white">Mon &ndash; Fri: 9:30am &ndash; 5:30pm</span>
+                            <span class="h6 mb-0 d-block text-white">Sat: 9:30am &ndash; 2pm</span>
                         </div>
                     </div>
                     <hr class="my-3">
                     <div class="d-flex mt-auto pt-2">
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href="" aria-label="Follow us on Twitter"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href="" aria-label="Follow us on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href="https://www.facebook.com/sahajanandservices#" target="_blank" rel="noopener" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href="https://www.linkedin.com/in/thakor-harshkumar/" target="_blank" rel="noopener" aria-label="Follow us on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>

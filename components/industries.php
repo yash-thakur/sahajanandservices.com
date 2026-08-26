@@ -2,7 +2,7 @@
     <div class="container">
         <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 700px;">
             <p class="fw-medium text-uppercase text-primary mb-2 section-tag">Industries We Serve</p>
-            <h2 class="display-5 mb-4">Machinery Expertise Across Manufacturing Sectors</h2>
+            <h2 class="display-5 mb-4">Proven Expertise Across Manufacturing Sectors</h2>
         </div>
         <div class="row g-4">
             <div class="col-md-4 col-lg-2 wow fadeInUp" data-wow-delay="0.1s">
@@ -21,12 +21,6 @@
                 <div class="industry-item">
                     <div class="industry-icon"><i class="fa fa-print"></i></div>
                     <h6 class="mb-0">Printing &amp; Lamination</h6>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-2 wow fadeInUp" data-wow-delay="0.4s">
-                <div class="industry-item">
-                    <div class="industry-icon"><i class="fa fa-fire"></i></div>
-                    <h6 class="mb-0">Boiler &amp; Pipeline</h6>
                 </div>
             </div>
             <div class="col-md-4 col-lg-2 wow fadeInUp" data-wow-delay="0.5s">

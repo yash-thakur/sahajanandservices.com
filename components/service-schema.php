@@ -36,7 +36,7 @@ $services = [
     ],
     [
         'name' => 'Manufacturing & Construction',
-        'description' => 'Factory sheds, mezzanines, structural steel erection, civil construction, boiler installation, pipeline networks, and complete plant setup services.',
+        'description' => 'Factory sheds, mezzanines, structural steel erection, civil construction, and complete plant setup services.',
         'url' => $siteUrl . '/service.php#manufacturing'
     ],
     [

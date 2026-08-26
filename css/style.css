@@ -614,11 +614,12 @@ h6,
     display: block;
     margin-bottom: 5px;
     padding: 0;
-    text-align: left;
+    text-align: left !important;
     color: #B0B9AE;
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
+    text-decoration: none;
 }
 
 .footer .btn.btn-link::before {

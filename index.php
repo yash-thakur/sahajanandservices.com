@@ -47,8 +47,8 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
-                                    <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">15 Years of Working Experience</p>
-                                    <h1 class="display-1 text-white mb-5 animated slideInRight">Installation, Erection &amp; Commissioning Experts</h1>
+                                    <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">15+ Years of Industrial Engineering</p>
+                                    <h1 class="display-4 text-white mb-5 animated slideInRight">Machinery Installation, Erection &amp; Commissioning — Delivered Globally</h1>
                                     <a href="service.php" class="btn btn-primary py-3 px-5 animated slideInRight">Explore Our Services</a>
                                 </div>
                             </div>
@@ -61,8 +61,8 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
-                                    <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">Loading, Unloading & Material Handling</p>
-                                    <p class="display-1 text-white mb-5 animated slideInRight">One Team For Your Entire Machine Project</p>
+                                    <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">Material Handling &amp; Project Execution</p>
+                                    <p class="display-4 text-white mb-5 animated slideInRight">One Team. Loading To Commissioning.</p>
                                     <a href="contact.php" class="btn btn-primary py-3 px-5 animated slideInRight">Get a Free Quote</a>
                                 </div>
                             </div>

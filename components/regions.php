@@ -4,7 +4,7 @@
             <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
                 <p class="fw-medium text-uppercase text-primary mb-2 section-tag">Where We Work</p>
                 <h2 class="display-5 mb-4">Regions We Serve</h2>
-                <p class="mb-0">Our engineering and material handling teams travel to your site, wherever your plant is located. We serve clients across:</p>
+                <p class="mb-0">We deploy engineering and material handling crews directly to your site — anywhere in our operating regions:</p>
             </div>
             <div class="col-lg-7">
                 <div class="row g-3">

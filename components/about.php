@@ -13,9 +13,9 @@
             </div>
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
                 <p class="fw-medium text-uppercase text-primary mb-2 section-tag">About Sahajanand Services</p>
-                <h2 class="display-6 mb-4">Your Partner In Installation, Erection &amp; Commissioning</h2>
-                <p class="mb-3">Sahajanand Services offers best-in-class machinery installation and commissioning with expertise in Design &amp; Technology, Installation, Erection &amp; Commissioning, HR Recruitment, New/Used Machine Sale &amp; Purchase, Contract Hire, Refurbishment, Construction, Business &amp; Project Consultancy, Manufacturing, and Material Handling.</p>
-                <p class="mb-4">All delivered on your behalf so you can focus on running your business. <a href="service.php">View our full range of services</a>.</p>
+                <h2 class="display-6 mb-4">15+ Years Delivering Industrial Machinery Solutions</h2>
+                <p class="mb-3">Sahajanand Services provides full-scope machinery installation, erection, and commissioning for plastic, packaging, and printing industries. We operate across Asia Pacific, Africa, Europe, the Middle East, and Pan India — handling everything from initial design through material handling, construction, manufacturing, and project staffing.</p>
+                <p class="mb-4">One team manages your entire project lifecycle so production stays on schedule. <a href="service.php">View our full range of services</a>.</p>
                 <div class="row g-2 mb-4">
                     <div class="col-sm-6"><p class="mb-2"><i class="fa fa-check-circle text-primary me-2"></i>Loading &amp; Unloading</p></div>
                     <div class="col-sm-6"><p class="mb-2"><i class="fa fa-check-circle text-primary me-2"></i>Installation &amp; Erection</p></div>
